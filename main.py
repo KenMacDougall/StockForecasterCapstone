@@ -8,7 +8,7 @@ from sklearn import preprocessing, svm
 from sklearn.model_selection import train_test_split
 
 
-df = quandl.get("WIKI/AMZN")
+df = quandl.get("SPY")
 
 df = df[['Adj. Close']]
 
